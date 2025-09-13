@@ -1,0 +1,63 @@
+guid: 519fe18a-729f-41c9-97d8-d4a6039e5923
+liveboard:
+  name: neelanjanlb
+  visualizations:
+  - id: Viz_1
+    answer:
+      name: neelanjan_answer
+      tables:
+      - id: "TS: BI Server"
+        name: "TS: BI Server"
+        fqn: eaab6de7-c556-468c-8b4b-ff6d78dd3ecf
+      search_query: "[Database Latency (us)] [Impressions] [Answer Book GUID] [Attribute Count] [Latency (us)]"
+      answer_columns:
+      - name: Answer Book GUID
+      - name: Attribute Count
+      - name: Total Database Latency (us)
+      - name: Total Impressions
+      - name: Total Latency (us)
+      table:
+        table_columns:
+        - column_id: Answer Book GUID
+          show_headline: false
+        - column_id: Attribute Count
+          show_headline: false
+        - column_id: Total Database Latency (us)
+          show_headline: false
+        - column_id: Total Impressions
+          show_headline: false
+        - column_id: Total Latency (us)
+          show_headline: false
+        ordered_column_ids:
+        - Answer Book GUID
+        - Attribute Count
+        - Total Database Latency (us)
+        - Total Impressions
+        - Total Latency (us)
+        client_state: ""
+        client_state_v2: "{\"tableVizPropVersion\": \"V1\"}"
+      chart:
+        type: BUBBLE
+        chart_columns:
+        - column_id: Answer Book GUID
+        - column_id: Attribute Count
+        - column_id: Total Database Latency (us)
+        - column_id: Total Impressions
+        - column_id: Total Latency (us)
+        axis_configs:
+        - x:
+          - Total Database Latency (us)
+          "y":
+          - Total Impressions
+          size: Total Latency (us)
+          category:
+          - Answer Book GUID
+        client_state: ""
+        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"chartSpecific\": {\"pivotSummariesState\": {}}},\"columnProperties\": [{\"columnId\": \"Answer Book GUID\",\"columnProperty\": {}},{\"columnId\": \"Attribute Count\",\"columnProperty\": {}},{\"columnId\": \"Total Database Latency (us)\",\"columnProperty\": {}},{\"columnId\": \"Total Impressions\",\"columnProperty\": {}},{\"columnId\": \"Total Latency (us)\",\"columnProperty\": {}},{\"columnId\": \"27b54dce-dbd1-41b7-9678-eb2435867308\",\"columnProperty\": {}},{\"columnId\": \"d661b1bd-0d16-4d88-b166-61d70b1fab78\",\"columnProperty\": {}}],\"axisProperties\": [{\"id\": \"f57364fe-d697-4cc3-9fef-423bdb86e78e\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Impressions\"],\"isOpposite\": false}},{\"id\": \"2a14c221-a09e-4722-90e6-3c7983d9311a\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"Total Database Latency (us)\"]}}],\"systemSeriesColors\": [{\"serieName\": \"Total Impressions\",\"color\": \"rgba(6,191,127,0.5)\"}]}"
+      display_mode: CHART_MODE
+      dynamic_name: neelanjan_answer
+    viz_guid: d8c170d9-84a9-469e-963b-f84162be2dc7
+  layout:
+    tiles:
+    - visualization_id: Viz_1
+      size: MEDIUM
