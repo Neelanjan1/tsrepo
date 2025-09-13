@@ -4,7 +4,7 @@ liveboard:
   visualizations:
   - id: Viz_1
     answer:
-      name: neelanjan_answer
+      name: neelanjan_answera
       tables:
       - id: "TS: BI Server"
         name: "TS: BI Server"
