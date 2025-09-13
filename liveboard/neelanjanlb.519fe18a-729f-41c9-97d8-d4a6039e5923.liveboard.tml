@@ -3,7 +3,7 @@ liveboard:
   name: neelanjanlb
   visualizations:
   - id: Viz_1
-    answer
+    answer:
       name: neelanjan_answer
       tables:
       - id: "TS: BI Server"
