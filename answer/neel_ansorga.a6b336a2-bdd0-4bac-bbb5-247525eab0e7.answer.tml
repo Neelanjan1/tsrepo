@@ -1,0 +1,42 @@
+guid: a6b336a2-bdd0-4bac-bbb5-247525eab0e7
+answer:
+  name: neel_ansorga
+  tables:
+  - id: "TS: Query Stats Worksheet"
+    name: "TS: Query Stats Worksheet"
+    fqn: 321647b5-b057-4b4d-b455-0cf041e4defe
+  search_query: "[Nums Rows Fetched] [Query Latency (External)] [Connection Name]"
+  answer_columns:
+  - name: Connection Name
+  - name: Total Nums Rows Fetched
+  - name: Total Query Latency (External)
+  table:
+    table_columns:
+    - column_id: Connection Name
+      show_headline: false
+    - column_id: Total Nums Rows Fetched
+      show_headline: false
+    - column_id: Total Query Latency (External)
+      show_headline: false
+    ordered_column_ids:
+    - Connection Name
+    - Total Nums Rows Fetched
+    - Total Query Latency (External)
+    client_state: ""
+    client_state_v2: "{\"tableVizPropVersion\": \"V1\"}"
+  chart:
+    type: COLUMN
+    chart_columns:
+    - column_id: Connection Name
+    - column_id: Total Nums Rows Fetched
+    - column_id: Total Query Latency (External)
+    axis_configs:
+    - x:
+      - Connection Name
+      "y":
+      - Total Nums Rows Fetched
+      - Total Query Latency (External)
+    client_state: ""
+    client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"responsiveLayoutPreference\": \"AUTO_ON\",\"chartSpecific\": {\"pivotSummariesState\": {}}},\"columnProperties\": [{\"columnId\": \"Connection Name\",\"columnProperty\": {}},{\"columnId\": \"Total Nums Rows Fetched\",\"columnProperty\": {}},{\"columnId\": \"Total Query Latency (External)\",\"columnProperty\": {}},{\"columnId\": \"Measure names\",\"columnProperty\": {}},{\"columnId\": \"Measure values\",\"columnProperty\": {}}],\"axisProperties\": [{\"id\": \"61326060-c0d2-4a2b-a214-c7c4b7df32f3\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Nums Rows Fetched\"],\"isOpposite\": false}},{\"id\": \"630c5351-324c-4894-9920-13849a954a26\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Query Latency (External)\"],\"isOpposite\": true}},{\"id\": \"705ca4a7-0789-47f8-a01e-7511c89be876\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"Connection Name\"]}}],\"systemSeriesColors\": [{\"serieName\": \"Total Nums Rows Fetched\",\"color\": \"#48D1E0\"},{\"serieName\": \"Total Query Latency (External)\",\"color\": \"#2E75F0\"}]}"
+  display_mode: CHART_MODE
+  dynamic_name: neel_ansorga
