@@ -3,8 +3,8 @@ liveboard:
   name: neelanjanlb
   visualizations:
   - id: Viz_1
-    answer:
-      name: neelanjan_answera
+    answer
+      name: neelanjan_answer
       tables:
       - id: "TS: BI Server"
         name: "TS: BI Server"
